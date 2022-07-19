@@ -24,4 +24,4 @@ jobs:
       run: docker build . --file Dockerfile --tag vivek081166/aws-ses-local:$(date +%s)
       
     - name: Docker Push
-      run: docker push vivek/aws-ses-local
+      run: docker push vivek081166/aws-ses-local
